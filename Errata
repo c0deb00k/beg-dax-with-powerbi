@@ -1,0 +1,7 @@
+page 21, the last paragraph
+
+    DAX attempts to implicitly convert two sides of an operator to the same datatype 
+where possible. This cannot be guaranteed in all cases. So, for instance, 1 + "2" results in 
+an error whereas...
+
+'1 + "2" results in an error wheareas...' should be removed because DAX implicitly convert string "2" to number 2 and it will result in number 3
